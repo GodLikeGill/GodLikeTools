@@ -1,0 +1,203 @@
+#---------------------------------------------------------------------------------------#
+#    ____               _   _       _   _             _____                   _         #
+#   / ___|   ___     __| | | |     (_) | | __   ___  |_   _|   ___     ___   | |  ___   #
+#  | |  _   / _ \   / _` | | |     | | | |/ /  / _ \   | |    / _ \   / _ \  | | / __|  #
+#  | |_| | | (_) | | (_| | | |___  | | |   <  |  __/   | |   | (_) | | (_) | | | \__ \  #
+#   \____|  \___/   \__,_| |_____| |_| |_|\_\  \___|   |_|    \___/   \___/  |_| |___/  #                                                                                 
+#                                                                                       #
+#                                Configuration File                                     #
+#---------------------------------------------------------------------------------------#
+
+
+#---------------------------------------------------------------------------------------#
+#                                                                                       #
+#                     ------[Edit The GodLike Tools Here]-----                          #
+#                           (Chunk Buster Tier1 - Tier3)                                #
+#                           (Trench Pickaxe 3x3 - 11x11)                                #
+#                            (Blast Shovel 3x3 - 11x11)                                 #
+#                                (Lightning Wand)                                       #
+#                                 (HarvesterHoe)                                        #
+#                                 (Item Crafter)                                        #
+#                                 (Tray Pickaxe)                                        #
+#                                   (SandWand)                                          #
+#                                                                                       #
+#---------------------------------------------------------------------------------------#
+
+Tools:
+  
+  ItemCrafter:
+    display_name: '&6Item Crafter'
+    lore: 
+    - '&8Right Click to Craft Items.'
+    - '&8Crafts Item in:'
+    - '&8Inventory'
+    - '&8Chests'
+  
+  HarvesterHoe:
+    display_name: '&6Harvester Hoe'
+    lore: 
+    - '&8Drops sugarcane directly in your Inventory'
+    
+  SandWand:
+    display_name: '&6Sand Wand'
+    lore: 
+    - '&8Remove sand walls instantly.'
+    
+  LightningWand: 
+    
+    Limited_Use:
+      Enabled: true
+      Number_of_Uses: 10
+      
+    Cooldown:
+      Enabled: true
+      Time: 10
+      
+    display_name: '&6Lightning Wand'
+    lore:
+    - '&8Summon Lightning with this magic stick'
+    
+  TrayPickaxe:
+    Drop_Blocks: true
+    display_name: '&6Tray Pickaxe'
+    lore: 
+    - '&8Removes tray easily.'
+    
+    # Block_Used_On are the blocks on which u Click/Use/Wall your tray pickaxe. 
+    # Whitelisted_Blocks are the blocks which will be mined when clicked.
+       
+    Block_Used_On:
+    - OBSIDIAN
+    - COBBLESTONE
+    - SAND
+    Whitelisted_Blocks:
+    - NETHERRACK
+    - DIRT
+    
+  ChunkBuster:
+  
+    Time_To_Evacuate:
+      Enabled: true
+      time_in_seconds: 11
+      
+    Tier1:
+      Delay_Time: 100
+      display_name: '&6Chunk Buster Tier 1'
+      lore:
+      - '&8Remove whole chunk with 1 Item'
+      - ''
+      - '&a* &7How to Use:'
+      - '&a* &7Right Click this item in'
+      - '&a* &7the Chunk u want to remove.'
+      
+    Tier2:
+      Delay_Time: 50
+      display_name: '&6Chunk Buster Tier 2'
+      lore:
+      - '&8Remove whole chunk with 1 Item'
+      - ''
+      - '&a* &7How to Use:'
+      - '&a* &7Right Click this item in'
+      - '&a* &7the Chunk u want to remove.'
+      
+    Tier3:
+      Delay_Time: 10
+      display_name: '&6Chunk Buster Tier 3'
+      lore:
+      - '&8Remove whole chunk with 1 Item'
+      - ''
+      - '&a* &7How to Use:'
+      - '&a* &7Right Click this item in'
+      - '&a* &7the Chunk u want to remove.'
+    
+  TrenchPickaxe:
+    Drop_Blocks: true
+    
+    # You can make your trench pickaxes unbreakable , set Unbreakable: false to disable it.
+    Unbreakable: true
+    
+    # Blocklisted_Blocks are the blocks which wont be mined by TrenchPickaxe.
+    Blacklisted_Blocks:
+    - BEDROCK
+    - MOB_SPAWNER
+    
+    3x3:
+      display_name: '&6Trench Pickaxe 3x3'
+      lore: 
+      - '&8Trench I'
+      EFFECIENCY_LEVEL: 5
+      UNBREAKING_LEVEL: 3
+    
+    5x5:
+      display_name: '&6Trench Pickaxe 5x5'
+      lore: 
+      - '&8Trench II'
+      EFFECIENCY_LEVEL: 5
+      UNBREAKING_LEVEL: 3
+    
+    7x7:
+      display_name: '&6Trench Pickaxe 7x7'
+      lore: 
+      - '&8Trench III'
+      EFFECIENCY_LEVEL: 5
+      UNBREAKING_LEVEL: 3 
+    
+    9x9:
+      display_name: '&6Trench Pickaxe 9x9'
+      lore: 
+      - '&8Trench IV'
+      EFFECIENCY_LEVEL: 5
+      UNBREAKING_LEVEL: 3
+     
+    11x11:
+      display_name: '&6Trench Pickaxe 11x11'
+      lore: 
+      - '&8Trench V'
+      EFFECIENCY_LEVEL: 5
+      UNBREAKING_LEVEL: 3
+    
+  BlastShovel:
+    Drop_Blocks: true
+    
+    # You can make your blast shovels unbreakable , set Unbreakable: false to disable it.
+    Unbreakable: true
+    
+    # Blocklisted_Blocks are the blocks which wont be mined by blast shovels.
+    Blacklisted_Blocks:
+    - BEDROCK
+    - MOB_SPAWNER
+  
+    3x3:
+      display_name: '&6Blast Shovel 3x3'
+      lore: 
+      - '&8Blast I'
+      EFFECIENCY_LEVEL: 5
+      UNBREAKING_LEVEL: 3
+    
+    5x5:
+      display_name: '&6Blast Shovel 5x5'
+      lore: 
+      - '&8Blast II'
+      EFFECIENCY_LEVEL: 5
+      UNBREAKING_LEVEL: 3
+    
+    7x7:
+      display_name: '&6Blast Shovel 7x7'
+      lore: 
+      - '&8Blast III'
+      EFFECIENCY_LEVEL: 5
+      UNBREAKING_LEVEL: 3
+    
+    9x9:
+      display_name: '&6Blast Shovel 9x9'
+      lore: 
+      - '&8Blast IV'
+      EFFECIENCY_LEVEL: 5
+      UNBREAKING_LEVEL: 3
+    
+    11x11:
+      display_name: '&6Blast Shovel 11x11'
+      lore: 
+      - '&8Blast V'
+      EFFECIENCY_LEVEL: 5
+      UNBREAKING_LEVEL: 3 

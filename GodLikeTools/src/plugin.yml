@@ -1,0 +1,21 @@
+name: GodLikeTools
+version: 1.0.0
+author: JatinSingh
+main: me.jatinsingh.glt.Main
+description: All the essential tools for servers like Faction/Survival/SkyBlock.
+softdepend: [WorldGuard,Factions,Vault]
+
+commands:
+  glt:
+    usage: /<command>
+    description: GodLikeTools's plug in command , for giving players Tools , reloading files , opening shop and more.
+
+permission:
+  glt.give:
+    description: Players with these permission can give players tools.
+  glt.reloadconfig:
+    description: Players with these permission can reload configuration file.
+  glt.reloadshop:
+    description: Players with these permission can reload shop file.
+  glt.shop:
+    description: Players with these permission can access GodLikeTools shop.
