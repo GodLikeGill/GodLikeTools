@@ -27,11 +27,11 @@ public class GLT implements CommandExecutor {
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		
-		if(sender instanceof Player) {
+		if(cmd.getName().equalsIgnoreCase(cmd1)) {
 			
-			Player p = (Player) sender;
-			
-			if(cmd.getName().equalsIgnoreCase(cmd1)) {
+			if(sender instanceof Player) {
+				
+				Player p = (Player) sender;
 				
 				if(args.length == 0) {
 					p.sendMessage(ChatColor.translateAlternateColorCodes('&', 
