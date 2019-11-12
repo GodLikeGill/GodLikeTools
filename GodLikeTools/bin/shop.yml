@@ -1,0 +1,163 @@
+# ----------------------------------#
+#   ____    _                       #
+#  / ___|  | |__     ___    _ __    #
+#  \___ \  | '_ \   / _ \  | '_ \   #
+#   ___) | | | | | | (_) | | |_) |  #
+#  |____/  |_| |_|  \___/  | .__/   #
+#                          |_|      #
+#                                   #
+#-----------------------------------#
+
+ShopGUI:
+  
+  # Rows in the Shop GUI
+  Rows: 6
+  
+  # This is the item which will fill the empty slots in shop, Default is STAINED_GLASS_PANE
+  
+  Fill_Empty_Slots:
+    Type: STAINED_GLASS_PANE 
+    Color: 15
+    display_name: ' '
+    lore:
+    - ''
+  
+  Tools:
+    
+    #---------------------------------------------------------------------------#
+    #                   How to Set up Shop / How it works :-                    #
+    #                                                                           #
+    #        TrenchPickaxe3x3:          (Item Type, The tool names are fixed)   #
+    #          Slot: 11                 (Inventory Slot)                        #
+    #          Price: 100000            (Price of item in /glt shop)            #
+    #          lore:                    (This lore will be added to             #
+    #          - ''                      Item Type)                             #
+    #          - '&aPrice: %buy_price%'                                         #
+    #                                                                           #
+    #---------------------------------------------------------------------------#
+    
+    TrenchPickaxe3x3: 
+      Slot: 11
+      Price: 100000
+      lore:
+      - ''
+      - '&aPrice: %buy_price%'
+  
+    TrenchPickaxe5x5: 
+      Slot: 12
+      Price: 250000
+      lore:
+      - ''
+      - '&aPrice: %buy_price%'
+    
+    TrenchPickaxe7x7: 
+      Slot: 13
+      Price: 500000
+      lore:
+      - ''
+      - '&aPrice: %buy_price%'
+  
+    TrenchPickaxe9x9:
+      Slot: 14
+      Price: 750000
+      lore:
+      - ''
+      - '&aPrice: %buy_price%'
+    
+    TrenchPickaxe11x11:
+      Slot: 15
+      Price: 1000000
+      lore:
+      - ''
+      - '&aPrice: %buy_price%'
+  
+    BlastShovel3x3:
+      Slot: 20
+      Price: 100000
+      lore:
+      - ''
+      - '&aPrice: %buy_price%' 
+  
+    BlastShovel5x5:
+      Slot: 21
+      Price: 250000
+      lore:
+      - ''
+      - '&aPrice: %buy_price%'
+  
+    BlastShovel7x7: 
+      Slot: 22
+      Price: 500000
+      lore:
+      - ''
+      - '&aPrice: %buy_price%'
+  
+    BlastShovel9x9: 
+      Slot: 23
+      Price: 750000
+      lore:
+      - ''
+      - '&aPrice: %buy_price%'
+  
+    BlastShovel11x11: 
+      Slot: 24
+      Price: 1000000
+      lore:
+      - ''
+      - '&aPrice: %buy_price%'
+  
+    HarvesterHoe:
+      Slot: 29
+      Price: 200000
+      lore:
+      - ''
+      - '&aPrice: %buy_price%'
+      
+    ItemCrafter:
+      Slot: 30
+      Price: 150000
+      lore:
+      - ''
+      - '&aPrice: %buy_price%'
+    
+    TrayPickaxe:
+      Slot: 31
+      Price: 150000
+      lore:
+      - ''
+      - '&aPrice: %buy_price%'
+      
+    LightningWand:
+      Slot: 32
+      Price: 200000
+      lore:
+      - ''
+      - '&aPrice: %buy_price%'
+      
+    SandWand:
+      Slot: 33
+      Price: 200000
+      lore:
+      - ''
+      - '&aPrice: %buy_price%'
+      
+    ChunkBusterTier1:
+      Slot: 39
+      Price: 100000
+      lore:
+      - ''
+      - '&aPrice: %buy_price%'
+    
+    ChunkBusterTier2:
+      Slot: 40
+      Price: 250000
+      lore:
+      - ''
+      - '&aPrice: %buy_price%'
+      
+    ChunkBusterTier3:
+      Slot: 41
+      Price: 500000
+      lore:
+      - ''
+      - '&aPrice: %buy_price%'
